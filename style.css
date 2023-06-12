@@ -1,0 +1,82 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header {
+    padding: 20px 15% 20px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #1f2937;
+}
+
+.logo {
+    font-family: Besley, serif;
+    font-weight: 900;
+    font-size: x-large;
+    font-style: italic;
+    color: #f9faf8;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    font-size: medium;
+}
+
+.menu-btn {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.menu-btn:hover {
+    color: rgb(101, 101, 255);
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15vh 15% 15vh 15%;
+    color: white;
+    background-color: #1f2937;
+}
+
+.hero-left {
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1#hero {
+    color: #f9faf8;
+}
+
+p#hero {
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+img#hero {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+a#hero {
+    border-width: 0;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(42, 42, 255);
+}
+
+a#hero:hover {
+    background-color: blue;
+}
+
